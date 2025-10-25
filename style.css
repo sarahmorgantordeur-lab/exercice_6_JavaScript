@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(206, 223, 236);
+}
+
+.poke {
+    display: flex;
+    flex-flow: row wrap !important;
+    justify-content: center;
+    height: auto;
+}
+
+.pokedex {
+    flex : 1;
+    border : solid ;
+    border-color:  aliceblue;
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 25%;
+    height:fix-content;
+    margin : 10px;
+    padding : 2px;
+    align-items: stretch;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.5s ease, box-shadow 0.3s ease; 
+
+}
+
+img {
+    width: 10rem;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Pokémon API</title>
+</head>
+<body>
+    <div id="poke" class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+ 
+        
+    </div>
+
+    <footer class="bg-gray-100 p-4 flex justify-center space-x-4 rounded-t-xl shadow-inner">
+  <button 
+    id="btnFirst"
+    onclick="firstPage()" 
+    class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors duration-200">
+      First
+  </button>
+
+  <button 
+    id="btnPrev"  
+    onclick="pagePrecedente()" 
+    class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors duration-200">
+      Previous
+  </button>
+
+  <button 
+    id="btnNext"
+    onclick="changerPage()" 
+    class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition-colors duration-200">
+      Next
+  </button>
+
+  <button 
+    id="btnLast"
+    onclick="lastPage()" 
+    class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition-colors duration-200">
+      Last
+  </button>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
